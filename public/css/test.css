@@ -1,0 +1,335 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgba(29, 55, 104, 1);
+    padding: 1% 5%;
+    height: 70px;
+    width: 100%;
+}
+
+.navbar a {
+    margin: 0 2%;
+    color: rgba(245, 245, 245, 0.7);
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item p {
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+.carousel-item b {
+    font-size: 80px;
+}
+
+.form {
+    background-image: url("../img/Rectangle3.png");
+    width: 740px;
+    height: 420spx;
+    border-radius: 5px;
+    position: absolute;
+    top: 85%;
+    left: 30%;
+}
+
+form {
+    width: 483px;
+    padding-top: 25px;
+    color: white;
+}
+
+form h3 {
+    font-size: 20px;
+}
+
+header {
+    position: relative;
+}
+
+form .btn {
+    width: 136px;
+    height: 41px;
+    margin-left: 72%;
+    background-color: rgba(29, 55, 104, 1);
+    color: rgba(255, 230, 1, 1);
+    border-radius: 0;
+    font-size: 15px;
+}
+
+
+/* first-example */
+.first-example {
+    background-color: rgba(245, 245, 245, 1);
+    margin-top: 10%;
+}
+
+.first-example .row {
+    padding-top: 120px;
+}
+
+.col-md-6 h2 {
+    color: rgba(89, 91, 137, 1);
+}
+
+.col-md-6 h3 {
+    color: rgba(29, 55, 104, 1);
+}
+
+/* first-example */
+
+/* villa */
+.villa {
+    margin-top: 50px
+}
+
+.col-md-3 {
+    height: 100%;
+}
+
+.border {
+    width: 285px;
+    box-shadow: 1px 2px rgba(234, 234, 234, 1);
+}
+
+.rating-point {
+    margin-right: 10px;
+}
+
+.rating-point p {
+    color: rgba(250, 150, 0, 1);
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.villa h2 {
+    color: rgba(29, 55, 104, 1);
+}
+
+/* 
+.villa p {
+    color: rgba(29, 55, 104, 1);
+} */
+/* .villa-row{
+    padding-top:120px
+} */
+
+.star i {
+    color: rgba(255, 208, 73, 1);
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.customer-number i {
+    color: rgba(25, 73, 141, 1);
+    font-size: 24px;
+    padding-right: 15px;
+    margin-top: 10px;
+}
+
+/* .villa-row {
+    margin-top: -150px;
+} */
+
+.villa-col {
+    margin-top: 50px;
+}
+
+.customer-number p {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.description p {
+    color: rgba(250, 150, 0, 1);
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+/* villa */
+
+/* hotel */
+.main-card img {
+    height: 362px;
+    border-radius: 0;
+}
+
+.main-card {
+    width: 550px;
+    height: 475px;
+    border-radius: 0;
+    margin-left: 10%;
+}
+
+.the-small-card {
+    width: 265px;
+    height: 230px;
+    border-radius: 0;
+}
+
+.the-small-card img {
+    height: 168px;
+    border-radius: 0;
+}
+
+.the-small-card .row {
+    padding-top: 0px;
+}
+
+.hotel {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.hotel h2 {
+    color: rgba(29, 55, 104, 1);
+    margin-bottom: 50px;
+}
+
+.card-body h5 {
+    margin-top: -10px
+}
+
+.the-small-card p {
+    margin-top: -10px;
+    font-size: 17px;
+}
+
+.the-small-card .card-title {
+    font-size: 18px;
+}
+
+.main-card p,
+.main-card .card-title {
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.more-btn {
+    background-color: rgba(29, 55, 104, 1);
+}
+
+/* hotel */
+
+/* wavy picture */
+.wavy-picture {}
+
+.wavy-picture h2 {
+    color: rgba(29, 55, 104, 1);
+    margin-top: 30px;
+}
+
+.wavy-picture img {
+    margin-top: -250px;
+}
+
+.grid-image img {
+    border: 15px solid white;
+}
+
+/* .img-col {
+    position: relative;
+} */
+
+/* wavy picture */
+
+/* more item */
+
+.more-item {
+    padding-top: 4%;
+}
+
+.more-item .col-md-3 .the-small-card {
+    height: 258px;
+}
+
+.more-item .col-md-3 .the-small-card h5 {
+    font-size: 12px
+}
+
+.more-item .col-md-3 .the-small-card .card-text p {
+    margin-top: 5px;
+    font-size: 12px
+}
+
+/* more item */
+
+/* customer-rating */
+.customer-rating {
+    margin-top: 8%;
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/Rectangle65.png);
+}
+
+.customer-rating .row {
+    margin-top: 4%;
+}
+
+.customer-rating .row .col-sm {
+    width: 360px;
+    height: 269px;
+    background: rgba(29, 55, 104, 0.6);
+    border-radius: 14px;
+    margin: 0 2%;
+}
+
+.customer-rating-image {
+    display: block;
+    justify-content: center;
+}
+
+.customer-rating-image {
+    position: relative;
+}
+.customer-rating-image img{
+    position: absolute;
+    top: 7px;
+    left: 40%;
+}
+.customer-rating-star{
+    position: absolute;
+    top: 95px;
+    left: 30%;
+}
+.customer-rating-star .rating-point p{
+    font-size:15px;
+}
+.customer-rating-star .d-flex i{
+    color: rgba(237, 186, 41, 1);
+    margin-top: 3px;
+    margin-right: 5px;
+    font-size:15px;
+}
+.customer-rating-text{
+    margin-top:120px
+}
+/* .customer-rating-text h4{
+    margin-top:20px;
+} */
+
+/* customer-rating */
+
+/* footer */
+    .footer{
+        background-image: url(../img/TheSongKV_1920x1080_logo1.png);
+        width: 100%;
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 10%;
+    }
+    
+
+
+/* footer */
